@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.smartwatches.TC001_SmartWatches_VerifyProductBuying_PriceValidation_ExistingUser">
+        <methods>
+          <include name="setUp"/>
+          <include name="Smartwatches_VerifyProductBuying"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automation.mobielshop.kpn.smartwatches.TC001_SmartWatches_VerifyProductBuying_PriceValidation_ExistingUser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

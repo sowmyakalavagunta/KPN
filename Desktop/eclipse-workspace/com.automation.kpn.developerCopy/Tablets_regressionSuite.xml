@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke_KPNMobileShopTest">
+
+<listeners>
+<listener class-name="com.Listener.RetryListener"/>
+</listeners>
+	        
+    <test name="smoke_Tablets_NewUser Browser Chrome">
+    <parameter name="myBrowser" value="chrome" />
+    <classes>
+    <class name="com.automation.mobielshop.kpn.tablets.TC001_Tablets_VerifyProductBuying_PriceValidation_WithSubscription">
+    </class>
+    </classes>
+    </test>
+       			
+       <test name="smoke_Tablets_NewUser Browser IE">
+       <parameter name="myBrowser" value="IE" />
+       <classes>
+       <class name="com.automation.mobielshop.kpn.tablets.TC001_Tablets_VerifyProductBuying_PriceValidation_WithSubscription">
+       </class>
+       </classes>
+       </test>  
+       
+			      <test name="smoke_Tablets_ExistingUser Browser Chrome ">
+			      <parameter name="myBrowser" value="chrome" />
+			      <classes>
+			      <class name="com.automation.mobielshop.kpn.tablets.TC002_Tablets_VerifyProductBuying_PriceValidation_WithoutSubscription">
+			      </class>
+			       </classes>
+			       </test>  
+			       
+				        <test name="smoke_Tablets_ExistingUser Browser IE ">
+				 		<parameter name="myBrowser" value="IE" />
+				   		<classes>
+				     	<class name="com.automation.mobielshop.kpn.tablets.TC002_Tablets_VerifyProductBuying_PriceValidation_WithoutSubscription">
+				        </class>
+				        </classes>
+				        </test>  
+       
+	    <test name="smoke_Tablets_FilterValidations Browser Chrome ">
+	    <parameter name="myBrowser" value="chrome" />
+	    <classes>
+	    <class name="com.automation.mobielshop.kpn.tablets.TC003_Tablets_products_FilterValidation">
+		</class>
+		</classes>
+		</test>  
+			       
+		<test name="smoke_Tablets_FilterValidations Browser IE ">
+		<parameter name="myBrowser" value="IE" />
+		<classes>
+		<class name="com.automation.mobielshop.kpn.tablets.TC003_Tablets_products_FilterValidation">
+		</class>
+		</classes>
+		</test>
+				        
+				  <test name="smoke_Tablets_Validation_productDetailsPage Browser Chrome ">
+			      <parameter name="myBrowser" value="chrome" />
+			      <classes>
+			      <class name="com.automation.mobielshop.kpn.tablets.TC004_Tablets_products_Validation_productDetailsPage">
+			      </class>
+			       </classes>
+			       </test>  
+			       
+				   <test name="smoke_Tablets_Validation_productDetailsPage Browser IE ">
+				   <parameter name="myBrowser" value="IE" />
+				   <classes>
+				   <class name="com.automation.mobielshop.kpn.tablets.TC004_Tablets_products_Validation_productDetailsPage">
+				   </class>
+				   </classes>
+				   </test>      
+				          
+      
+        <test name="smoke_Tablets_shoppingBasketPageValidationr Browser Chrome ">
+	    <parameter name="myBrowser" value="chrome" />
+	    <classes>
+	    <class name="com.automation.mobielshop.kpn.tablets.TC005_Tablets_products_Validation_shoppingBasketPage">
+		</class>
+		</classes>
+		</test>  
+			       
+		<test name="smoke_Tablets_shoppingBasketPageValidation Browser IE ">
+		<parameter name="myBrowser" value="IE" />
+		<classes>
+		<class name="com.automation.mobielshop.kpn.tablets.TC005_Tablets_products_Validation_shoppingBasketPage">
+		</class>
+		</classes>
+		</test> 
+		
+					  </suite> 
+					  <!-- MobileShopSuite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [smoke_KPNMobileShopTest]]">
+  <listeners>
+    <listener class-name="com.Listener.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="smoke_phones_productDetailsPage(failed)(failed)">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.telefoons.TC004_phones_Products_Validation_productDetailsPage">
+        <methods>
+          <include name="DetailsPageValidation"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automation.mobielshop.kpn.telefoons.TC004_phones_Products_Validation_productDetailsPage -->
+    </classes>
+  </test> <!-- smoke_phones_productDetailsPage(failed)(failed) -->
+  <test thread-count="5" name="smoke_tablets_Validation_productDetailsPage(failed)(failed)">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC004_Tablets_products_Validation_productDetailsPage">
+        <methods>
+          <include name="DetailsPageValidation"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automation.mobielshop.kpn.tablets.TC004_Tablets_products_Validation_productDetailsPage -->
+    </classes>
+  </test> <!-- smoke_tablets_Validation_productDetailsPage(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [smoke_KPNMobileShopTest]] -->

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke_KPNMobileShopTest">
+
+<listeners>
+<listener class-name="com.Listener.RetryListener"/>
+</listeners>
+	        
+    <test name="smoke_phones_NewUser Browser Chrome">
+    <parameter name="myBrowser" value="chrome" />
+    <classes>
+    <class name="com.automation.mobielshop.kpn.telefoons.TC002_phones_VerifyProductBuying_PriceValidation_ExistingUser">
+    </class>
+    </classes>
+    </test>
+    
+     <!--   <test name="smoke_phones_ExistingUser Browser Chrome ">
+			      <parameter name="myBrowser" value="chrome" />
+			      <classes>
+			      <class name="com.automation.mobielshop.kpn.telefoons.TC002_phones_VerifyProductBuying_PriceValidation_ExistingUser">
+			      </class>
+			       </classes>
+			       </test>  
+			       
+			           <test name="smoke_phones_FilterValidations Browser Chrome ">
+	    <parameter name="myBrowser" value="chrome" />
+	    <classes>
+	    <class name="com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations">
+		</class>
+		</classes>
+		</test>  
+		
+		 <test name="smoke_phones_Validation_productDetailsPage Browser Chrome ">
+			      <parameter name="myBrowser" value="chrome" />
+			      <classes>
+			      <class name="com.automation.mobielshop.kpn.telefoons.TC004_phones_Products_Validation_productDetailsPage">
+			      </class>
+			       </classes>
+			       </test>   -->
+			       
+	<!-- 		            <test name="smoke_phones_shoppingBasketPageValidationr Browser Chrome ">
+	    <parameter name="myBrowser" value="chrome" />
+	    <classes>
+	    <class name="com.automation.mobielshop.kpn.telefoons.TC005_phones_Products_Validaton_shoppingBasketPage">
+		</class>
+		</classes>
+		</test>   -->
+       			
+      <!--  <test name="smoke_phones_NewUser Browser IE">
+       <parameter name="myBrowser" value="IE" />
+       <classes>
+       <class name="com.automation.mobielshop.kpn.telefoons.TC001_phones_VerifyiProductBuying_PriceValidation_NewUser">
+       </class>
+       </classes>
+       </test>  
+       
+			   
+			       
+				        <test name="smoke_phones_ExistingUser Browser IE ">
+				 		<parameter name="myBrowser" value="IE" />
+				   		<classes>
+				     	<class name="com.automation.mobielshop.kpn.telefoons.TC002_phones_VerifyProductBuying_PriceValidation_ExistingUser">
+				        </class>
+				        </classes>
+				        </test>  
+       
+	
+			       
+		<test name="smoke_phones_FilterValidations Browser IE ">
+		<parameter name="myBrowser" value="IE" />
+		<classes>
+		<class name="com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations">
+		</class>
+		</classes>
+		</test>
+				        
+				 
+			       
+				   <test name="smoke_phones_Validation_productDetailsPage Browser IE ">
+				   <parameter name="myBrowser" value="IE" />
+				   <classes>
+				   <class name="com.automation.mobielshop.kpn.telefoons.TC004_phones_Products_Validation_productDetailsPage">
+				   </class>
+				   </classes>
+				   </test>      
+				          
+      
+   
+			       
+		<test name="smoke_phones_shoppingBasketPageValidation Browser IE ">
+		<parameter name="myBrowser" value="IE" />
+		<classes>
+		<class name="com.automation.mobielshop.kpn.telefoons.TC005_phones_Products_Validaton_shoppingBasketPage">
+		</class>
+		</classes>
+		</test>  -->
+		
+					  </suite> 
+					  <!-- MobileShopSuite -->

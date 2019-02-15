@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke_KPNMobileShopTest">
+
+<listeners>
+<listener class-name="com.Listener.RetryListener"/>
+</listeners>
+
+       	
+ <test name="smoke_phones Browser IE">
+<parameter name="myBrowser" value="chrome" />
+    <classes>
+      	<class name="com.automation.mobielshop.kpn.telefoons.TC002_phones_VerifyProductBuying_PriceValidation_ExistingUser">
+      	</class>
+       	</classes>
+       	</test>       	
+	        
+ <!--<test name="smoke_phones Browser Chrome">
+<parameter name="myBrowser" value="chrome" />
+    <classes>
+      	<class name="com.automation.mobielshop.kpn.telefoons.TC001_phones_VerifyiProductBuying_PriceValidation_NewUser">
+      	</class>
+       		</classes>
+       			</test>  
+       
+ <test name="smoke_phones_ExistingUser Browser Chrome ">
+ <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.telefoons.TC002_phones_VerifyProductBuying_ExistingUser">
+      </class>
+       </classes>
+       </test>  
+
+   <test name="smoke_tablets_WithSubscription Browser Chrome ">
+   <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC001_Tablets_VerifyProductBuying_WithSubscription">
+      </class>  
+     </classes>
+  </test> 
+  
+      
+ <test name="smoke_tablets_WithoutSubscription Browser Chrome ">
+ <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC002_Tablets_VerifyProductBuying_WithoutSubscription">
+      </class>  
+     </classes>
+  </test> 
+  
+    
+  <test name="smoke_MobielInternet Browser Chrome ">
+  <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.mobielInternet.TC001_MobielInternet_verifyProductBuying">
+      </class>
+       </classes>
+       </test> 
+       
+   <test name="smoke_simOnly Browser Chrome ">
+   <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.simOnly.TC001_simOnly_verifyProdctBuying">
+      </class>  
+     </classes>
+  </test>
+              
+  <test name="smoke_simOnly_ExistingUser Browser Chrome ">
+  <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.simOnly.TC002_simOnly_verifyProductBuying_ExisitingUser">
+      </class>
+       </classes>
+       </test>  
+       
+       
+    <test name="smoke_SmartWatches_NotACustomer Browser Chrome ">
+    <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.smartwatches.TC001_SmartWatches_VerifyProductBuying_NotAnExistingCustomer">
+      </class>
+       </classes>
+       </test>
+       
+       
+    <test name="smoke_SmartWatches_AlreadyCustomer Browser Chrome ">
+    <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.smartwatches.TC002_SmartWatches_VerifyProductBuying_AlreadyCustomer">
+      </class>
+       </classes>
+       </test>
+       
+       
+    <test name="smoke_prepaid_AlreadyCustomer Browser Chrome ">
+    <parameter name="myBrowser" value="chrome" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.prepaid.TC001_Prepaid_verifyProductBuying">
+      </class>
+       </classes>
+       </test> 
+       
+       
+       IE testing starts here 
+       
+     	        
+<test name="smoke_phones Browser IE">
+<parameter name="myBrowser" value="IE" />
+    <classes>
+      	<class name="com.automation.mobielshop.kpn.telefoons.TC001_phones_VerifyiProductBuying">
+      	</class>
+       	</classes>
+       	</test> 
+       
+ <test name="smoke_phones_ExistingUser Browser IE ">
+ <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.telefoons.TC002_phones_VerifyProductBuying_ExistingUser">
+      </class>
+       </classes>
+       </test>  
+
+   <test name="smoke_tablets_WithSubscription Browser IE ">
+   <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC001_Tablets_VerifyProductBuying_WithSubscription">
+      </class>  
+     </classes>
+  </test> 
+  
+      
+ <test name="smoke_tablets_WithoutSubscription Browser ChIErome ">
+ <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC002_Tablets_VerifyProductBuying_WithoutSubscription">
+      </class>  
+     </classes>
+  </test> 
+  
+    
+  <test name="smoke_MobielInternet Browser ChrIEome ">
+  <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.mobielInternet.TC001_MobielInternet_verifyProductBuying">
+      </class>
+       </classes>
+       </test> 
+       
+   <test name="smoke_simOnly Browser IE ">
+   <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.simOnly.TC001_simOnly_verifyProdctBuying">
+      </class>  
+     </classes>
+  </test>
+              
+  <test name="smoke_simOnly_ExistingUser Browser IE ">
+  <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.simOnly.TC002_simOnly_verifyProductBuying_ExisitingUser">
+      </class>
+       </classes>
+       </test>  
+       
+       
+    <test name="smoke_SmartWatches_NotACustomer Browser IE ">
+    <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.smartwatches.TC001_SmartWatches_VerifyProductBuying_NotAnExistingCustomer">
+      </class>
+       </classes>
+       </test>
+       
+       
+    <test name="smoke_SmartWatches_AlreadyCustomer Browser IE ">
+    <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.smartwatches.TC002_SmartWatches_VerifyProductBuying_AlreadyCustomer">
+      </class>
+       </classes>
+       </test>
+        
+       
+    <test name="smoke_prepaid_AlreadyCustomer Browser IE ">
+    <parameter name="myBrowser" value="IE" />
+    <classes>
+      <class name="com.automation.mobielshop.kpn.prepaid.TC001_Prepaid_verifyProductBuying">
+      </class>
+       </classes>
+       </test>   
+       
+    -->
+  
+  </suite> 
+  <!-- MobileShopSuite -->

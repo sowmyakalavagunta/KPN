@@ -1,0 +1,833 @@
+<html>
+<head>
+<title>TestNG:  smoke_phones_FilterValidations Browser IE </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>smoke_phones_FilterValidations Browser IE </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/2</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 11 09:35:01 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39695 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation()'><b>Product_Validation</b><br>Test class: com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations</td>
+<td><div><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Cannot click on element
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;INHYDKRLSOWMYA&apos;, ip: &apos;192.168.24.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ddf9ea1d-f313-4f3f-97c8-2ed6fa066033
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.automation.mobielshop.kpn.uiActions.Telephones.Apple_Brand(Telephones.java:252)
+	at com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation(TC003_phones_Products_FilterValidations.java:36)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace679971410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace679971410'><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Cannot click on element
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;INHYDKRLSOWMYA&apos;, ip: &apos;192.168.24.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ddf9ea1d-f313-4f3f-97c8-2ed6fa066033
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.automation.mobielshop.kpn.uiActions.Telephones.Apple_Brand(Telephones.java:252)
+	at com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation(TC003_phones_Products_FilterValidations.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations@1f554b06</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation()'><b>Product_Validation</b><br>Test class: com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (534,10). Other element would receive the click: &lt;div class=&quot;container-fluid&quot;&gt;
+
+            
+            
+            &lt;button class=&quot;btn btn-navigation btn-sm pull-left visible-xs-inline-block visible-sm-inline-block&quot; data-toggle=&quot;modal&quot; data-target=&quot;#mobileMenu&quot; data-kpn-mobile-menu-toggler=&quot;&quot;&gt;
+                &lt;span class=&quot;icon-bars&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/span&gt;
+                &lt;span class=&quot;menu-txt&quot;&gt;Menu&lt;/span&gt;
+            &lt;/button&gt;
+            
+
+            
+            &lt;button class=&quot;btn btn-navigation btn-sm toggle-search pull-right visible-xs-inline-block visible-sm-inline-block&quot; type=&quot;button&quot; data-toggle=&quot;modal&quot;&gt;
+                &lt;span class=&quot;glyphicon glyphicon-search&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;div class=&quot;searchbox&quot;&gt;
+                &lt;form class=&quot;navbar-form js-noajax&quot; id=&quot;header-search-form&quot; role=&quot;search&quot; action=&quot;https://www.kpn.com/search.htm&quot; method=&quot;get&quot; data-metadatacontenttype=&quot;&quot; data-metadataservicetype=&quot;&quot; data-metadataquestiontype=&quot;&quot; data-metadataproducttype=&quot;&quot; data-metadataproductcategory=&quot;&quot; data-metadatatargetgroup=&quot;&quot; data-metadatafilter=&quot;&quot;&gt;
+                    &lt;div class=&quot;input-group&quot;&gt;
+                        &lt;label class=&quot;sr-only&quot; for=&quot;search-input&quot;&gt;Zoeken naar&lt;/label&gt;
+                        &lt;input name=&quot;q&quot; class=&quot;search-query form-control no-mouseflow&quot; id=&quot;search-input&quot; type=&quot;search&quot; placeholder=&quot;Zoeken naar...&quot; autocomplete=&quot;off&quot;&gt;
+                        &lt;span class=&quot;input-group-btn&quot; id=&quot;search-button-group&quot;&gt;
+                            &lt;button class=&quot;btn btn-primary&quot; id=&quot;search-button&quot; type=&quot;submit&quot; value=&quot;&quot;&gt;
+                                &lt;span class=&quot;glyphicon glyphicon-search hidden-xs hidden-sm&quot;&gt;&lt;/span&gt;
+                                &lt;span class=&quot;sr-only&quot;&gt;Zoeken&lt;/span&gt;
+                                &lt;span id=&quot;search-text&quot;&gt;OK&lt;/span&gt;
+                            &lt;/button&gt;
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;ul class=&quot;suggest-list&quot; role=&quot;menu&quot; style=&quot;display: none;&quot;&gt;&lt;/ul&gt;
+                &lt;/form&gt;
+            &lt;/div&gt;
+            
+
+            
+            &lt;a title=&quot;Internet, televisie, vast bellen en mobiel met 4G netwerk | KPN&quot; class=&quot;logo&quot; href=&quot;https://www.kpn.com/&quot;&gt;
+                &lt;img alt=&quot;KPN Logo&quot; src=&quot;/cmshop-frontend/images/00-atoms/01-global/logo-kpn-groot.png&quot;&gt;
+            &lt;/a&gt;
+            
+
+            
+            &lt;div&gt;
+                &lt;ul class=&quot;megamenu nav-lvl-1 list-inline hidden-xs hidden-sm pull-left&quot;&gt;
+                    &lt;li class=&quot;megamenu__primary-li&quot;&gt;
+                        &lt;a title=&quot;Informatie &amp;amp; Bestellen&quot; href=&quot;#&quot;&gt;Informatie &amp;amp; Bestellen&lt;/a&gt;
+                        &lt;div class=&quot;nav-lvl-2 nav-image&quot;&gt;
+                            &lt;ul class=&quot;sub-menu-wrapper&quot;&gt;
+                                &lt;li class=&quot;col-md-2 col-md-offset-1 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Koop je nieuwe mobiele telefoon veilig en snel bij KPN&quot; href=&quot;https://www.kpn.com/mobiel-shop.htm&quot;&gt;Mobiel&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Verlengen&quot; href=&quot;/mobiel/verlengen-abonnement&quot;&gt;Verlengen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                            &lt;li&gt;
+                                                &lt;a title=&quot;Telefoons&quot; href=&quot;/mobiel/verlengen/smartphones&quot;&gt;Telefoons&lt;/a&gt;
+                                            &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Sim Only abonnementen&quot; href=&quot;https://www.kpn.com/mobiel-abonnement/sim-only.htm&quot;&gt;Sim Only&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Mobiel abonnement met of zonder telefoon&quot; href=&quot;https://www.kpn.com/mobiel-abonnement.htm&quot;&gt;Mobiel abonnement&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Prepaid van KPN:bepaal zelf hoeveel je uitgeeft&quot; href=&quot;https://www.kpn.com/prepaid.htm&quot;&gt;Prepaid&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Supersnel en stabiel 4G van KPN&quot; href=&quot;https://www.kpn.com/4g.htm&quot;&gt;4G Netwerk&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Overige opties&quot; href=&quot;https://www.kpn.com/mobiel-abonnement/bundels.htm&quot;&gt;Overige opties&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Interactieve TV, Internet en Bellen voor thuis&quot; href=&quot;https://www.kpn.com/thuis.htm&quot;&gt;Thuis&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Internet en TV pakket&quot; href=&quot;https://bestellen.kpn.com/internet-tv/&quot;&gt;Internet en TV pakket&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Wat is het Interactieve TV-abonnement van KPN?&quot; href=&quot;https://www.kpn.com/televisie.htm&quot;&gt;Televisie&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Glasvezel&quot; href=&quot;https://www.kpn.com/internet/glasvezel.htm&quot;&gt;Glasvezel&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Wat is KPN Internet?&quot; href=&quot;https://www.kpn.com/internet.htm&quot;&gt;Internet&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Bellen met de vaste telefoon via het betrouwbare netwerk van KPN&quot; href=&quot;https://www.kpn.com/bellen.htm&quot;&gt;Bellen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Beleef KPN &quot; href=&quot;https://www.kpn.com/beleef.htm&quot;&gt;Beleef KPN&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Een veiliger en comfortabeler huis met KPN SmartLife&quot; href=&quot;https://www.kpn.com/smartlife.htm&quot;&gt;KPN SmartLife&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;KPN Compleet&quot; href=&quot;https://www.kpn.com/compleet.htm&quot;&gt;KPN Compleet&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Ontdek de voordelen van KPN Compleet&quot; href=&quot;https://www.kpn.com/compleet.htm&quot;&gt;Voordelen van KPN Compleet&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Meld je aan voor KPN Compleet&quot; href=&quot;https://campagnes.kpn.com/krijg-meer/kpn-compleet/prive&quot;&gt;Meld je aan&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Service KPN Compleet&quot; href=&quot;https://www.kpn.com/compleet/service.htm&quot;&gt;Service&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+
+                                &lt;li class=&quot;col-md-4 list-unstyled pull-right&quot;&gt;
+                                    &lt;div class=&quot;menu-image pull-right&quot;&gt;
+                                    &lt;/div&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class=&quot;megamenu__primary-li&quot;&gt;
+                        &lt;a title=&quot;KPN Klantenservice | Regel het direct!&quot; href=&quot;https://www.kpn.com/service.htm&quot;&gt;Service &amp;amp; Contact&lt;/a&gt;
+                        &lt;div class=&quot;nav-lvl-2 nav-image&quot;&gt;
+                            &lt;ul class=&quot;sub-menu-wrapper&quot;&gt;
+                                &lt;li class=&quot;col-md-2 col-md-offset-1 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door mobiele klanten&quot; href=&quot;https://www.kpn.com/service/mobiel.htm&quot;&gt;Mobiel&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Mobiel toestel instellen&quot; href=&quot;https://www.kpn.com/service/mobiel/instellen.htm&quot;&gt;Toestel instellen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;SIM-kaart en PUK-code&quot; href=&quot;https://www.kpn.com/service/mobiel/sim-kaart.htm&quot;&gt;SIM-kaart en PUK-code&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Prepaid opwaarderen&quot; href=&quot;https://www.kpn.com/service/mobiel/prepaid-opwaarderen.htm&quot;&gt;Prepaid opwaarderen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Schade, verlies of diefstal&quot; href=&quot;https://www.kpn.com/service/mobiel/schade-diefstal.htm&quot;&gt;Schade, verlies of diefstal&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen Mobiel&quot; href=&quot;https://www.kpn.com/service/mobiel/problemen.htm&quot;&gt;Problemen met mobiel&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door mobiele klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/mobiel.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door internet klanten&quot; href=&quot;https://www.kpn.com/service/internet.htm&quot;&gt;Internet&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;WiFi en modems installeren&quot; href=&quot;https://www.kpn.com/service/internet/wifi-en-modems.htm&quot;&gt;WiFi en modems installeren&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Internetsnelheid testen &amp;amp; verbeteren&quot; href=&quot;https://www.kpn.com/internet/speedtest.htm&quot;&gt;Snelheid verbeteren&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veilig Internetten&quot; href=&quot;https://www.kpn.com/service/internet/veilig-internetten.htm&quot;&gt;Veilig internetten&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;E-mail (kpnmail) instellen&quot; href=&quot;https://www.kpn.com/service/internet/e-mail.htm&quot;&gt;E-mail&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen met Internet / WiFi&quot; href=&quot;https://www.kpn.com/service/internet/problemen.htm&quot;&gt;Problemen met internet &amp;amp; WiFi&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door internet klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/internet.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door televisie klanten&quot; href=&quot;https://www.kpn.com/service/televisie.htm&quot;&gt;Televisie&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;TV installeren&quot; href=&quot;https://www.kpn.com/service/televisie/installeren.htm&quot;&gt;TV installeren&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Zenderpakketten aan- of uitzetten&quot; href=&quot;https://www.kpn.com/service/televisie/zenders.htm&quot;&gt;Zenderpakketten aanzetten&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Pincode Interactieve TV&quot; href=&quot;https://www.kpn.com/service/televisie/pincode-itv.htm&quot;&gt;Pincode Interactieve TV&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Kijk eenvoudig online tv op al je apparaten&quot; href=&quot;https://www.kpn.com/service/televisie/online-tv-kijken.htm&quot;&gt;Online TV kijken&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen TV&quot; href=&quot;https://www.kpn.com/service/televisie/problemen.htm&quot;&gt;Problemen met TV&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door televisie klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/televisie.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door Vast bellen klanten&quot; href=&quot;https://www.kpn.com/service/bellen.htm&quot;&gt;Vast bellen&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Vaste telefoon aansluiten (VoiP &amp;amp; PSTN/ISDN)&quot; href=&quot;https://www.kpn.com/service/bellen/telefoon-aansluiten.htm&quot;&gt;Telefoon aansluiten&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Vaste telefoon doorschakelen&quot; href=&quot;https://www.kpn.com/service/bellen/telefoon-doorschakelen.htm&quot;&gt;Doorschakelen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Telefoonnummers en anonieme bellers blokkeren &quot; href=&quot;https://www.kpn.com/service/bellen/nummer-blokkeren.htm&quot;&gt;Nummer blokkeren &lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;VoiceMail gebruiken&quot; href=&quot;https://www.kpn.com/service/bellen/voicemail-gebruiken.htm&quot;&gt;VoiceMail gebruiken&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;NummerWeergave aan- en uitzetten op je vaste telefoon &quot; href=&quot;https://www.kpn.com/service/bellen/nummerweergave.htm&quot;&gt;NummerWeergave&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen met Vast bellen&quot; href=&quot;https://www.kpn.com/service/bellen/problemen.htm&quot;&gt;Problemen met Vast bellen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door Vast bellen klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/bellen.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door onze klanten&quot; href=&quot;https://www.kpn.com/service/administratie.htm&quot;&gt;Administratie&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Factuur &amp;amp; Betalen&quot; href=&quot;https://www.kpn.com/service/administratie/facturen.htm&quot;&gt;Factuur &amp;amp; betalen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Je KPN producten verhuizen mee&quot; href=&quot;https://www.kpn.com/service/administratie/verhuizen.htm&quot;&gt;Verhuizen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Bekijk de status van je bestelling&quot; href=&quot;https://www.kpn.com/service/administratie/bestelling.htm&quot;&gt;Bestelstatus&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Eenvoudig overstappen naar KPN &quot; href=&quot;https://www.kpn.com/service/administratie/overstappen.htm&quot;&gt;Overstappen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Gegevens wijzigen&quot; href=&quot;https://www.kpn.com/service/administratie/wijzigen.htm&quot;&gt;Gegevens wijzigen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door onze klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/administratie.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                            &lt;ul class=&quot;col-md-offset-1 col-md-10&quot;&gt;
+                                &lt;div class=&quot;horizontal-link&quot;&gt;
+                                    Direct naar &lt;a class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service.htm&quot;&gt;klantenservice&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;megamenu__primary-li&quot;&gt;
+                        &lt;a title=&quot;Beleef KPN&quot; href=&quot;https://www.kpn.com/beleef.htm&quot;&gt;Beleef KPN&lt;/a&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            
+        &lt;/div&gt;
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;INHYDKRLSOWMYA&apos;, ip: &apos;192.168.24.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ddf9ea1d-f313-4f3f-97c8-2ed6fa066033
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.automation.mobielshop.kpn.uiActions.Telephones.Filter_OS_Android(Telephones.java:597)
+	at com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation(TC003_phones_Products_FilterValidations.java:52)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2015096807", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2015096807'><pre>org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (534,10). Other element would receive the click: &lt;div class=&quot;container-fluid&quot;&gt;
+
+            
+            
+            &lt;button class=&quot;btn btn-navigation btn-sm pull-left visible-xs-inline-block visible-sm-inline-block&quot; data-toggle=&quot;modal&quot; data-target=&quot;#mobileMenu&quot; data-kpn-mobile-menu-toggler=&quot;&quot;&gt;
+                &lt;span class=&quot;icon-bars&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/span&gt;
+                &lt;span class=&quot;menu-txt&quot;&gt;Menu&lt;/span&gt;
+            &lt;/button&gt;
+            
+
+            
+            &lt;button class=&quot;btn btn-navigation btn-sm toggle-search pull-right visible-xs-inline-block visible-sm-inline-block&quot; type=&quot;button&quot; data-toggle=&quot;modal&quot;&gt;
+                &lt;span class=&quot;glyphicon glyphicon-search&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;div class=&quot;searchbox&quot;&gt;
+                &lt;form class=&quot;navbar-form js-noajax&quot; id=&quot;header-search-form&quot; role=&quot;search&quot; action=&quot;https://www.kpn.com/search.htm&quot; method=&quot;get&quot; data-metadatacontenttype=&quot;&quot; data-metadataservicetype=&quot;&quot; data-metadataquestiontype=&quot;&quot; data-metadataproducttype=&quot;&quot; data-metadataproductcategory=&quot;&quot; data-metadatatargetgroup=&quot;&quot; data-metadatafilter=&quot;&quot;&gt;
+                    &lt;div class=&quot;input-group&quot;&gt;
+                        &lt;label class=&quot;sr-only&quot; for=&quot;search-input&quot;&gt;Zoeken naar&lt;/label&gt;
+                        &lt;input name=&quot;q&quot; class=&quot;search-query form-control no-mouseflow&quot; id=&quot;search-input&quot; type=&quot;search&quot; placeholder=&quot;Zoeken naar...&quot; autocomplete=&quot;off&quot;&gt;
+                        &lt;span class=&quot;input-group-btn&quot; id=&quot;search-button-group&quot;&gt;
+                            &lt;button class=&quot;btn btn-primary&quot; id=&quot;search-button&quot; type=&quot;submit&quot; value=&quot;&quot;&gt;
+                                &lt;span class=&quot;glyphicon glyphicon-search hidden-xs hidden-sm&quot;&gt;&lt;/span&gt;
+                                &lt;span class=&quot;sr-only&quot;&gt;Zoeken&lt;/span&gt;
+                                &lt;span id=&quot;search-text&quot;&gt;OK&lt;/span&gt;
+                            &lt;/button&gt;
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;ul class=&quot;suggest-list&quot; role=&quot;menu&quot; style=&quot;display: none;&quot;&gt;&lt;/ul&gt;
+                &lt;/form&gt;
+            &lt;/div&gt;
+            
+
+            
+            &lt;a title=&quot;Internet, televisie, vast bellen en mobiel met 4G netwerk | KPN&quot; class=&quot;logo&quot; href=&quot;https://www.kpn.com/&quot;&gt;
+                &lt;img alt=&quot;KPN Logo&quot; src=&quot;/cmshop-frontend/images/00-atoms/01-global/logo-kpn-groot.png&quot;&gt;
+            &lt;/a&gt;
+            
+
+            
+            &lt;div&gt;
+                &lt;ul class=&quot;megamenu nav-lvl-1 list-inline hidden-xs hidden-sm pull-left&quot;&gt;
+                    &lt;li class=&quot;megamenu__primary-li&quot;&gt;
+                        &lt;a title=&quot;Informatie &amp;amp; Bestellen&quot; href=&quot;#&quot;&gt;Informatie &amp;amp; Bestellen&lt;/a&gt;
+                        &lt;div class=&quot;nav-lvl-2 nav-image&quot;&gt;
+                            &lt;ul class=&quot;sub-menu-wrapper&quot;&gt;
+                                &lt;li class=&quot;col-md-2 col-md-offset-1 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Koop je nieuwe mobiele telefoon veilig en snel bij KPN&quot; href=&quot;https://www.kpn.com/mobiel-shop.htm&quot;&gt;Mobiel&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Verlengen&quot; href=&quot;/mobiel/verlengen-abonnement&quot;&gt;Verlengen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                            &lt;li&gt;
+                                                &lt;a title=&quot;Telefoons&quot; href=&quot;/mobiel/verlengen/smartphones&quot;&gt;Telefoons&lt;/a&gt;
+                                            &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Sim Only abonnementen&quot; href=&quot;https://www.kpn.com/mobiel-abonnement/sim-only.htm&quot;&gt;Sim Only&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Mobiel abonnement met of zonder telefoon&quot; href=&quot;https://www.kpn.com/mobiel-abonnement.htm&quot;&gt;Mobiel abonnement&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Prepaid van KPN:bepaal zelf hoeveel je uitgeeft&quot; href=&quot;https://www.kpn.com/prepaid.htm&quot;&gt;Prepaid&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Supersnel en stabiel 4G van KPN&quot; href=&quot;https://www.kpn.com/4g.htm&quot;&gt;4G Netwerk&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Overige opties&quot; href=&quot;https://www.kpn.com/mobiel-abonnement/bundels.htm&quot;&gt;Overige opties&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Interactieve TV, Internet en Bellen voor thuis&quot; href=&quot;https://www.kpn.com/thuis.htm&quot;&gt;Thuis&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Internet en TV pakket&quot; href=&quot;https://bestellen.kpn.com/internet-tv/&quot;&gt;Internet en TV pakket&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Wat is het Interactieve TV-abonnement van KPN?&quot; href=&quot;https://www.kpn.com/televisie.htm&quot;&gt;Televisie&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Glasvezel&quot; href=&quot;https://www.kpn.com/internet/glasvezel.htm&quot;&gt;Glasvezel&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Wat is KPN Internet?&quot; href=&quot;https://www.kpn.com/internet.htm&quot;&gt;Internet&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Bellen met de vaste telefoon via het betrouwbare netwerk van KPN&quot; href=&quot;https://www.kpn.com/bellen.htm&quot;&gt;Bellen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Beleef KPN &quot; href=&quot;https://www.kpn.com/beleef.htm&quot;&gt;Beleef KPN&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Een veiliger en comfortabeler huis met KPN SmartLife&quot; href=&quot;https://www.kpn.com/smartlife.htm&quot;&gt;KPN SmartLife&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;KPN Compleet&quot; href=&quot;https://www.kpn.com/compleet.htm&quot;&gt;KPN Compleet&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Ontdek de voordelen van KPN Compleet&quot; href=&quot;https://www.kpn.com/compleet.htm&quot;&gt;Voordelen van KPN Compleet&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Meld je aan voor KPN Compleet&quot; href=&quot;https://campagnes.kpn.com/krijg-meer/kpn-compleet/prive&quot;&gt;Meld je aan&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Service KPN Compleet&quot; href=&quot;https://www.kpn.com/compleet/service.htm&quot;&gt;Service&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+
+                                &lt;li class=&quot;col-md-4 list-unstyled pull-right&quot;&gt;
+                                    &lt;div class=&quot;menu-image pull-right&quot;&gt;
+                                    &lt;/div&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/li&gt;
+
+                    &lt;li class=&quot;megamenu__primary-li&quot;&gt;
+                        &lt;a title=&quot;KPN Klantenservice | Regel het direct!&quot; href=&quot;https://www.kpn.com/service.htm&quot;&gt;Service &amp;amp; Contact&lt;/a&gt;
+                        &lt;div class=&quot;nav-lvl-2 nav-image&quot;&gt;
+                            &lt;ul class=&quot;sub-menu-wrapper&quot;&gt;
+                                &lt;li class=&quot;col-md-2 col-md-offset-1 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door mobiele klanten&quot; href=&quot;https://www.kpn.com/service/mobiel.htm&quot;&gt;Mobiel&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Mobiel toestel instellen&quot; href=&quot;https://www.kpn.com/service/mobiel/instellen.htm&quot;&gt;Toestel instellen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;SIM-kaart en PUK-code&quot; href=&quot;https://www.kpn.com/service/mobiel/sim-kaart.htm&quot;&gt;SIM-kaart en PUK-code&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Prepaid opwaarderen&quot; href=&quot;https://www.kpn.com/service/mobiel/prepaid-opwaarderen.htm&quot;&gt;Prepaid opwaarderen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Schade, verlies of diefstal&quot; href=&quot;https://www.kpn.com/service/mobiel/schade-diefstal.htm&quot;&gt;Schade, verlies of diefstal&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen Mobiel&quot; href=&quot;https://www.kpn.com/service/mobiel/problemen.htm&quot;&gt;Problemen met mobiel&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door mobiele klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/mobiel.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door internet klanten&quot; href=&quot;https://www.kpn.com/service/internet.htm&quot;&gt;Internet&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;WiFi en modems installeren&quot; href=&quot;https://www.kpn.com/service/internet/wifi-en-modems.htm&quot;&gt;WiFi en modems installeren&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Internetsnelheid testen &amp;amp; verbeteren&quot; href=&quot;https://www.kpn.com/internet/speedtest.htm&quot;&gt;Snelheid verbeteren&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veilig Internetten&quot; href=&quot;https://www.kpn.com/service/internet/veilig-internetten.htm&quot;&gt;Veilig internetten&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;E-mail (kpnmail) instellen&quot; href=&quot;https://www.kpn.com/service/internet/e-mail.htm&quot;&gt;E-mail&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen met Internet / WiFi&quot; href=&quot;https://www.kpn.com/service/internet/problemen.htm&quot;&gt;Problemen met internet &amp;amp; WiFi&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door internet klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/internet.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door televisie klanten&quot; href=&quot;https://www.kpn.com/service/televisie.htm&quot;&gt;Televisie&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;TV installeren&quot; href=&quot;https://www.kpn.com/service/televisie/installeren.htm&quot;&gt;TV installeren&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Zenderpakketten aan- of uitzetten&quot; href=&quot;https://www.kpn.com/service/televisie/zenders.htm&quot;&gt;Zenderpakketten aanzetten&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Pincode Interactieve TV&quot; href=&quot;https://www.kpn.com/service/televisie/pincode-itv.htm&quot;&gt;Pincode Interactieve TV&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Kijk eenvoudig online tv op al je apparaten&quot; href=&quot;https://www.kpn.com/service/televisie/online-tv-kijken.htm&quot;&gt;Online TV kijken&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen TV&quot; href=&quot;https://www.kpn.com/service/televisie/problemen.htm&quot;&gt;Problemen met TV&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door televisie klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/televisie.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door Vast bellen klanten&quot; href=&quot;https://www.kpn.com/service/bellen.htm&quot;&gt;Vast bellen&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Vaste telefoon aansluiten (VoiP &amp;amp; PSTN/ISDN)&quot; href=&quot;https://www.kpn.com/service/bellen/telefoon-aansluiten.htm&quot;&gt;Telefoon aansluiten&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Vaste telefoon doorschakelen&quot; href=&quot;https://www.kpn.com/service/bellen/telefoon-doorschakelen.htm&quot;&gt;Doorschakelen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Telefoonnummers en anonieme bellers blokkeren &quot; href=&quot;https://www.kpn.com/service/bellen/nummer-blokkeren.htm&quot;&gt;Nummer blokkeren &lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;VoiceMail gebruiken&quot; href=&quot;https://www.kpn.com/service/bellen/voicemail-gebruiken.htm&quot;&gt;VoiceMail gebruiken&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;NummerWeergave aan- en uitzetten op je vaste telefoon &quot; href=&quot;https://www.kpn.com/service/bellen/nummerweergave.htm&quot;&gt;NummerWeergave&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Problemen &amp;amp; Storingen met Vast bellen&quot; href=&quot;https://www.kpn.com/service/bellen/problemen.htm&quot;&gt;Problemen met Vast bellen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door Vast bellen klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/bellen.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;col-md-2 list-unstyled&quot;&gt;
+                                    &lt;a title=&quot;Veel gezocht door onze klanten&quot; href=&quot;https://www.kpn.com/service/administratie.htm&quot;&gt;Administratie&lt;/a&gt;
+                                    &lt;ul class=&quot;nav-lvl-3 list-unstyled&quot;&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Factuur &amp;amp; Betalen&quot; href=&quot;https://www.kpn.com/service/administratie/facturen.htm&quot;&gt;Factuur &amp;amp; betalen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Je KPN producten verhuizen mee&quot; href=&quot;https://www.kpn.com/service/administratie/verhuizen.htm&quot;&gt;Verhuizen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Bekijk de status van je bestelling&quot; href=&quot;https://www.kpn.com/service/administratie/bestelling.htm&quot;&gt;Bestelstatus&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Eenvoudig overstappen naar KPN &quot; href=&quot;https://www.kpn.com/service/administratie/overstappen.htm&quot;&gt;Overstappen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Gegevens wijzigen&quot; href=&quot;https://www.kpn.com/service/administratie/wijzigen.htm&quot;&gt;Gegevens wijzigen&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a title=&quot;Veel gezocht door onze klanten&quot; class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service/administratie.htm&quot;&gt;Toon Alles&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                            &lt;ul class=&quot;col-md-offset-1 col-md-10&quot;&gt;
+                                &lt;div class=&quot;horizontal-link&quot;&gt;
+                                    Direct naar &lt;a class=&quot;secondary-link&quot; href=&quot;https://www.kpn.com/service.htm&quot;&gt;klantenservice&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;megamenu__primary-li&quot;&gt;
+                        &lt;a title=&quot;Beleef KPN&quot; href=&quot;https://www.kpn.com/beleef.htm&quot;&gt;Beleef KPN&lt;/a&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            
+        &lt;/div&gt;
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;INHYDKRLSOWMYA&apos;, ip: &apos;192.168.24.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ddf9ea1d-f313-4f3f-97c8-2ed6fa066033
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.automation.mobielshop.kpn.uiActions.Telephones.Filter_OS_Android(Telephones.java:597)
+	at com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation(TC003_phones_Products_FilterValidations.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>23</td>
+<td>com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations@1f554b06</td></tr>
+<tr>
+<td title='com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation()'><b>Product_Validation</b><br>Test class: com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations</td>
+<td><div><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Cannot click on element
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;INHYDKRLSOWMYA&apos;, ip: &apos;192.168.24.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ddf9ea1d-f313-4f3f-97c8-2ed6fa066033
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.automation.mobielshop.kpn.uiActions.Telephones.Apple_Brand(Telephones.java:252)
+	at com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation(TC003_phones_Products_FilterValidations.java:36)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace195348892", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace195348892'><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Cannot click on element
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;INHYDKRLSOWMYA&apos;, ip: &apos;192.168.24.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37428/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ddf9ea1d-f313-4f3f-97c8-2ed6fa066033
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.automation.mobielshop.kpn.uiActions.Telephones.Apple_Brand(Telephones.java:252)
+	at com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations.Product_Validation(TC003_phones_Products_FilterValidations.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.automation.mobielshop.kpn.telefoons.TC003_phones_Products_FilterValidations@1f554b06</td></tr>
+</table><p>
+</body>
+</html>

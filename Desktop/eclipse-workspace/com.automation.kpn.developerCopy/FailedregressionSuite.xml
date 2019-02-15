@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke_KPNMobileShopTest">
+
+<listeners>
+<listener class-name="com.Listener.RetryListener"/>
+</listeners>
+   	<test name="smoke_phones_shoppingBasketPageValidation Browser IE ">
+		<parameter name="myBrowser" value="IE" />
+		<classes>
+		<class name="com.automation.mobielshop.kpn.simOnly.TC002_simOnly_verifyProductBuying_ExisitingUser">
+		</class>
+		</classes>
+		</test> 
+  </suite> 
+  
+  <!-- MobileShopSuite -->

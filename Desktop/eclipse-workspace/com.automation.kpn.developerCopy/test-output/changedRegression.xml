@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke_KPNMobileShopTest" >
+
+<listeners>
+<listener class-name="com.Listener.RetryListener"/>
+</listeners>
+
+
+       
+ <test name="smoke_phones_productDetailsPage">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.telefoons.TC004_phones_Products_Validation_productDetailsPage">
+      </class>
+       </classes>
+       </test>  
+       
+ 
+  <test name="smoke_phones_shoppingBasketPage">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.telefoons.TC005_phones_Products_Validaton_shoppingBasketPage">
+      </class>
+       </classes>
+       </test> 
+       
+       
+	<test name="smoke_phones_priceDetails">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.telefoons.TC006_phones_Products_validation_priceDetails">
+      </class>
+       </classes>
+       </test> 
+       
+
+      
+ <test name="smoke_tablets_Validation_productDetailsPage">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC004_Tablets_products_Validation_productDetailsPage">
+      </class>  
+     </classes>
+  </test> 
+  
+   <test name="smoke_tablets_Validation_shoppingBasketPage">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC005_Tablets_products_Validation_shoppingBasketPage">
+      </class>  
+     </classes>
+  </test> 
+  
+  
+   <test name="smoke_tablets_Validation_priceDetails">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.tablets.TC006_Tablets_products_validation_priceDetails">
+      </class>  
+     </classes>
+  </test> 
+  
+  
+  <test name="smoke_SmartWatches_products_validation_priceDetails">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.smartwatches.TC003_SmartWatches_products_validation_priceDetails">
+      </class>
+       </classes>
+       </test>
+   
+   <test name="smoke_simOnly">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.simOnly.TC003_simOnly_products_validation_priceDetails">
+      </class>  
+     </classes>
+  </test>
+  
+      
+       
+   <test name="smoke_prepaid_Validation_PriceDetails">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.prepaid.TC002_Prepaid_Validation_PriceDetails">
+      </class>
+       </classes>
+       </test>
+  
+        
+    
+  <test name="smoke_MobielInternet_Products_validation_priceDetails">
+    <classes>
+      <class name="com.automation.mobielshop.kpn.mobielInternet.TC002_MobielInternet_Products_validation_priceDetails">
+      </class>
+       </classes>
+       </test>  
+   
+   
+  
+  </suite> 
+  <!-- MobileShopSuite -->
